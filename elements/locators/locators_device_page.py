@@ -9,9 +9,6 @@ class Device:
     POPUP = (By.XPATH, '//*[@class="modal-title"]')
     EXPORT_RESULTS = (By.XPATH, '//*[@name="export"]')
 
-
-
-
     def section_constructor(self, section):
         xpath = f"//*[text()='{section}']"
         return (By.XPATH, xpath)

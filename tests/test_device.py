@@ -1,5 +1,3 @@
-import time
-from tabnanny import check
 import allure
 import pytest
 
